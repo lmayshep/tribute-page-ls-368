@@ -1,0 +1,129 @@
+body {
+    width: 1440px;
+    height: 4159px;
+    background: #302928;
+  }
+  
+  fieldset{
+    width: 923px;
+    height: 752px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid var(--concrete, #888E92);
+    background: #FFF;
+    margin: 0 auto;
+    margin-bottom: 38px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    aspect-ratio: 406/601;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 36px;
+    display: block;
+    justify-content: center;
+  }
+  
+  #image-body {
+    width: 430px;
+    height: 612px;
+    flex-shrink: 0;
+    aspect-ratio: 215/306;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+  }
+  
+  #title {
+    font-family: "Jaini Purva";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 13px auto;
+  }
+  
+  p {
+  color: #000;
+  font-family: "Sans Serif Collection";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  .bio {
+    color: #000;
+    text-align: center;
+    font-family: "Macondo Swash Caps";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 64px;
+    margin-right: 56px;
+  }
+  
+  h2 {
+    color: #000;
+    font-family: Literata;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  fieldset.early-years {
+    width: 914px;
+    height: 356px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid var(--red-sand, #C6523C);
+    background: #FFF;
+  }
+  
+  fieldset.education {
+    width: 914px;
+    height: 391px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid var(--tree, #AB7B54);
+    background: #FFF;
+  }
+  
+  fieldset.careers {
+    width: 914px;
+    height: 479px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid var(--sage, #B5B99E);
+    background: #FFF;
+  }
+  
+  fieldset.politics {
+    width: 914px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid var(--red-sand, #C6523C);
+    background: #FFF;
+  }
+  
+  fieldset.later-years {
+    width: 914px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 5px solid var(--tree, #AB7B54);
+    background: #FFF;
+  }
+  
